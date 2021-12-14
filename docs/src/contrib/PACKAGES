@@ -1,8 +1,8 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
-MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
+Package: mleap
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: sparklyr, jsonlite, purrr, fs, tibble, rJava, digest
+Suggests: testthat, covr, ggplot2, dplyr
+License: Apache License (>= 2.0)
+MD5sum: 399d29f7e3096dbc847609d78b95e112
 NeedsCompilation: no
